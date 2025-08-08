@@ -1,0 +1,141 @@
+Script started on Fri Aug  8 14:08:16 2025
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit branch[?2004l
+[?1h=  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+  feature-a[m[m
+  feature-b[m[m
+* [32mmain[m[m
+  prod[m[m
+  test[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit checkout -b feature[27m
+[7mecho "linha feature" > arquivo.txt[27m[K
+[7mgit add arquivo.txt[27m[K
+[7mgit commit -m "commit na feature"[27m[K
+[7mgit branch[27m[K[4A[30C[27mg[27mi[27mt[27m [27mc[27mh[27me[27mc[27mk[27mo[27mu[27mt[27m [27m-[27mb[27m [27mf[27me[27ma[27mt[27mu[27mr[27me[1B[27me[27mc[27mh[27mo[27m [27m"[27ml[27mi[27mn[27mh[27ma[27m [27mf[27me[27ma[27mt[27mu[27mr[27me[27m"[27m [27m>[27m [27ma[27mr[27mq[27mu[27mi[27mv[27mo[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27ma[27mr[27mq[27mu[27mi[27mv[27mo[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mc[27mo[27mm[27mm[27mi[27mt[27m [27mn[27ma[27m [27mf[27me[27ma[27mt[27mu[27mr[27me[27m"[1B[27mg[27mi[27mt[27m [27mb[27mr[27ma[27mn[27mc[27mh[?2004l
+Switched to a new branch 'feature'
+[feature d5a12b5] commit na feature
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+[?1h=  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+* [32mfeature[m[m
+  feature-a[m[m
+  feature-b[m[m
+  main[m[m
+  prod[m[m
+  test[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit checkout main[27m
+[7mecho "linha main" > arquivo.txt[27m[K
+[7mgit add arquivo.txt[27m[K
+[7mgit commit -m "commit no main"[27m[K
+[7mgit branch[27m[K[4A[30C[27mg[27mi[27mt[27m [27mc[27mh[27me[27mc[27mk[27mo[27mu[27mt[27m [27mm[27ma[27mi[27mn[1B[27me[27mc[27mh[27mo[27m [27m"[27ml[27mi[27mn[27mh[27ma[27m [27mm[27ma[27mi[27mn[27m"[27m [27m>[27m [27ma[27mr[27mq[27mu[27mi[27mv[27mo[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27ma[27mr[27mq[27mu[27mi[27mv[27mo[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mc[27mo[27mm[27mm[27mi[27mt[27m [27mn[27mo[27m [27mm[27ma[27mi[27mn[27m"[1B[27mg[27mi[27mt[27m [27mb[27mr[27ma[27mn[27mc[27mh[?2004l
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 11 commits.
+  (use "git push" to publish your local commits)
+[main 6195be5] commit no main
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+[?1h=  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+  feature[m[m
+  feature-a[m[m
+  feature-b[m[m
+* [32mmain[m[m
+  prod[m[m
+  test[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit checkout feature[27m
+[7mgit merge main[27m[K
+[7mgit status[27m[K
+[7mgit merge --abort[27m[K[3A[23C[27mg[27mi[27mt[27m [27mc[27mh[27me[27mc[27mk[27mo[27mu[27mt[27m [27mf[27me[27ma[27mt[27mu[27mr[27me[1B[27mg[27mi[27mt[27m [27mm[27me[27mr[27mg[27me[27m [27mm[27ma[27mi[27mn[1B[27mg[27mi[27mt[27m [27ms[27mt[27ma[27mt[27mu[27ms[1B[27mg[27mi[27mt[27m [27mm[27me[27mr[27mg[27me[27m [27m-[27m-[27ma[27mb[27mo[27mr[27mt             g [K[K[A[10C       g [K[K[A[14C[?2004l[1BSwitched to branch 'feature'
+Auto-merging arquivo.txt
+CONFLICT (content): Merge conflict in arquivo.txt
+Automatic merge failed; fix conflicts and then commit the result.
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit status[?2004l
+On branch feature
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+	[31mboth modified:   arquivo.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31mlab2-sessao3.txt[m
+	[31mlab2-sessao4.txt[m
+	[31mlab2-sessao5.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit merge --abort[?2004l
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit branch[?2004l
+[?1h=  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+* [32mfeature[m[m
+  feature-a[m[m
+  feature-b[m[m
+  main[m[m
+  prod[m[m
+  test[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit reset --hard HEAD~1   # apaga ultimo commit [7md[7mo branch atual (feature)[27m[K
+[7mgit rebase main[27m[K[A[A[25C[27mg[27mi[27mt[27m [27mr[27me[27ms[27me[27mt[27m [27m-[27m-[27mh[27ma[27mr[27md[27m [27mH[27mE[27mA[27mD[27m~[27m1[27m [27m [27m [27m#[27m [27ma[27mp[27ma[27mg[27ma[27m [27mu[27ml[27mt[27mi[27mm[27mo[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m d[27mo[27m [27mb[27mr[27ma[27mn[27mc[27mh[27m [27ma[27mt[27mu[27ma[27ml[27m [27m([27mf[27me[27ma[27mt[27mu[27mr[27me[27m)[1B[27mg[27mi[27mt[27m [27mr[27me[27mb[27ma[27ms[27me[27m [27mm[27ma[27mi[27mn[A[25C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C                    d [K[M[A[87C                  [1B[48D           g [K[K[A[63C                 --ob neline[1C[1C[1C[1C --oneline[10Dl --oneline[10Do --oneline[10Dg --oneline[10D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[?2004l[1B[?1h=[33md5a12b5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature[m[33m)[m commit na feature[m
+[33m668d434[m Resolvido conflito branch3[m
+[33m54dd139[m Resolvido conflito[m
+[33m6933a38[m[33m ([m[1;32mbranch3[m[33m)[m Commit na branch3[m
+[33maa29282[m[33m ([m[1;32mbranch1[m[33m)[m Commit na branch1[m
+[33mf619155[m[33m ([m[1;32mbranch2[m[33m)[m Commit na branch2[m
+[33mc98a467[m Primeiro commit[m
+[33m7ff6fe1[m Resolve conflito de A e B[m
+[33m67e35d8[m Feature B[m
+[33mde01cb9[m[33m ([m[1;32mfeature-a[m[33m)[m Feature A[m
+[33ma5578c7[m v3 main[m
+[33m130ddeb[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m v2 main[m
+[33m8a849ab[m[33m ([m[1;31morigin/main[m[33m)[m add files lab1[m
+[33m1f0b481[m algum commit[m
+[33m73cf8fe[m commit 2[m
+[33m93bca3a[m commit 1[m
+[33mdf8a189[m v4[m
+[33md6a02f7[m v3[m
+[33m702f85a[m v2[m
+[33m2ff9f01[m v1[m
+[33mf0683d0[m Corrige v2 revertido[m
+[33mb076c7c[m v2[m
+[33m58f33d5[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit reset --hard HEAD` ˜ `     [7mHEAD~1[27m[27mH[27mE[27mA[27mD[27m~[27m1[?2004l
+HEAD is now at 668d434 Resolvido conflito branch3
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit rebase main[27m[15D[27mg[27mi[27mt[27m [27mr[27me[27mb[27ma[27ms[27me[27m [27mm[27ma[27mi[27mn[?2004l
+[KSuccessfully rebased and updated refs/heads/feature.
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit log --oneline --all[27m[23D[27mg[27mi[27mt[27m [27ml[27mo[27mg[27m [27m-[27m-[27mo[27mn[27me[27ml[27mi[27mn[27me[27m [27m-[27m-[27ma[27ml[27ml[?2004l
+[?1h=[33m6195be5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature[m[33m, [m[1;32mmain[m[33m)[m commit no main[m
+[33m668d434[m Resolvido conflito branch3[m
+[33m54dd139[m Resolvido conflito[m
+[33maa29282[m[33m ([m[1;32mbranch1[m[33m)[m Commit na branch1[m
+[33mf619155[m[33m ([m[1;32mbranch2[m[33m)[m Commit na branch2[m
+[33m6933a38[m[33m ([m[1;32mbranch3[m[33m)[m Commit na branch3[m
+[33mc98a467[m Primeiro commit[m
+[33m7ff6fe1[m Resolve conflito de A e B[m
+[33md56de96[m[33m ([m[1;32mfeature-b[m[33m)[m Feature A[m
+[33m67e35d8[m Feature B[m
+[33m2638c05[m add lab2.sessao2[m
+[33m4fb4634[m add lab2.sessao2[m
+[33mcf073ea[m Feature B[m
+[33mde01cb9[m[33m ([m[1;32mfeature-a[m[33m)[m Feature A[m
+[33ma5578c7[m v3 main[m
+[33m130ddeb[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m v2 main[m
+[33m8a849ab[m[33m ([m[1;31morigin/main[m[33m)[m add files lab1[m
+[33m1f0b481[m algum commit[m
+[33m73cf8fe[m commit 2[m
+[33m93bca3a[m commit 1[m
+[33mdf8a189[m v4[m
+[33md6a02f7[m v3[m
+[33m702f85a[m v2[m
+[33m2ff9f01[m v1[m
+[33mf0683d0[m Corrige v2 revertido[m
+[33mb076c7c[m v2[m
+[33m58f33d5[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004heexit[?2004l
+
+Script done on Fri Aug  8 14:13:13 2025

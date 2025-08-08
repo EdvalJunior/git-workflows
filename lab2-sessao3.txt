@@ -1,0 +1,227 @@
+Script started on Fri Aug  8 13:59:17 2025
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mecho "linha 1" > arquivo.txt[27m
+[7mgit add arquivo.txt[27m[K
+[7mgit commit -m "Primeiro commit"[27m[K[A[A[9C[27me[27mc[27mh[27mo[27m [27m"[27ml[27mi[27mn[27mh[27ma[27m [27m1[27m"[27m [27m>[27m [27ma[27mr[27mq[27mu[27mi[27mv[27mo[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27ma[27mr[27mq[27mu[27mi[27mv[27mo[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mP[27mr[27mi[27mm[27me[27mi[27mr[27mo[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m"[?2004l
+[main c98a467] Primeiro commit
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit branch branch1[27m
+[7mgit branch branch2[27m[K
+[7mgit branch branch3[27m[K
+[7mgit branch           # lista todos os branches[27m[K[3A[27mg[27mi[27mt[27m [27mb[27mr[27ma[27mn[27mc[27mh[27m [27mb[27mr[27ma[27mn[27mc[27mh[27m1[1B[27mg[27mi[27mt[27m [27mb[27mr[27ma[27mn[27mc[27mh[27m [27mb[27mr[27ma[27mn[27mc[27mh[27m2[1B[27mg[27mi[27mt[27m [27mb[27mr[27ma[27mn[27mc[27mh[27m [27mb[27mr[27ma[27mn[27mc[27mh[27m3[1B[27mg[27mi[27mt[27m [27mb[27mr[27ma[27mn[27mc[27mh[36P[11C# lista todos os branches[6C[K                     [?2004l
+[?1h=  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+  feature-a[m[m
+  feature-b[m[m
+* [32mmain[m[m
+  prod[m[m
+  test[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit checkout branch1[27m
+[7mecho "linha 2 na branch1" >> arquivo.txt[27m[K
+[7mgit commit -am "Commit na branch1"[27m[K
+[K
+[7mgit checkout branch2[27m[K
+[7mecho "linha 2 na branch2" >> arquivo.txt[27m[K
+[7mgit commit -am "Commit na branch2"[27m[K
+[K
+[7mgit checkout branch3[27m[K
+[7mecho "linha 2 na branch3" >> arquivo.txt[27m[K
+[7mgit commit -am "Commit na branch3"[27m[K[10A[6C[27mg[27mi[27mt[27m [27mc[27mh[27me[27mc[27mk[27mo[27mu[27mt[27m [27mb[27mr[27ma[27mn[27mc[27mh[27m1[1B[27me[27mc[27mh[27mo[27m [27m"[27ml[27mi[27mn[27mh[27ma[27m [27m2[27m [27mn[27ma[27m [27mb[27mr[27ma[27mn[27mc[27mh[27m1[27m"[27m [27m>[27m>[27m [27ma[27mr[27mq[27mu[27mi[27mv[27mo[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mC[27mo[27mm[27mm[27mi[27mt[27m [27mn[27ma[27m [27mb[27mr[27ma[27mn[27mc[27mh[27m1[27m"[2B[27mg[27mi[27mt[27m [27mc[27mh[27me[27mc[27mk[27mo[27mu[27mt[27m [27mb[27mr[27ma[27mn[27mc[27mh[27m2[1B[27me[27mc[27mh[27mo[27m [27m"[27ml[27mi[27mn[27mh[27ma[27m [27m2[27m [27mn[27ma[27m [27mb[27mr[27ma[27mn[27mc[27mh[27m2[27m"[27m [27m>[27m>[27m [27ma[27mr[27mq[27mu[27mi[27mv[27mo[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mC[27mo[27mm[27mm[27mi[27mt[27m [27mn[27ma[27m [27mb[27mr[27ma[27mn[27mc[27mh[27m2[27m"[2B[27mg[27mi[27mt[27m [27mc[27mh[27me[27mc[27mk[27mo[27mu[27mt[27m [27mb[27mr[27ma[27mn[27mc[27mh[27m3[1B[27me[27mc[27mh[27mo[27m [27m"[27ml[27mi[27mn[27mh[27ma[27m [27m2[27m [27mn[27ma[27m [27mb[27mr[27ma[27mn[27mc[27mh[27m3[27m"[27m [27m>[27m>[27m [27ma[27mr[27mq[27mu[27mi[27mv[27mo[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mC[27mo[27mm[27mm[27mi[27mt[27m [27mn[27ma[27m [27mb[27mr[27ma[27mn[27mc[27mh[27m3[27m"[?2004l
+Switched to branch 'branch1'
+[branch1 aa29282] Commit na branch1
+ 1 file changed, 1 insertion(+)
+Switched to branch 'branch2'
+[branch2 f619155] Commit na branch2
+ 1 file changed, 1 insertion(+)
+Switched to branch 'branch3'
+[branch3 6933a38] Commit na branch3
+ 1 file changed, 1 insertion(+)
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit checkout mi ain[?2004l
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 6 commits.
+  (use "git push" to publish your local commits)
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit che   merge branch1             --  log --oneline [?2004l
+[?1h=[33mc98a467[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Primeiro commit[m
+[33m7ff6fe1[m Resolve conflito de A e B[m
+[33m67e35d8[m Feature B[m
+[33mde01cb9[m[33m ([m[1;32mfeature-a[m[33m)[m Feature A[m
+[33ma5578c7[m v3 main[m
+[33m130ddeb[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m v2 main[m
+[33m8a849ab[m[33m ([m[1;31morigin/main[m[33m)[m add files lab1[m
+[33m1f0b481[m algum commit[m
+[33m73cf8fe[m commit 2[m
+[33m93bca3a[m commit 1[m
+[33mdf8a189[m v4[m
+[33md6a02f7[m v3[m
+[33m702f85a[m v2[m
+[33m2ff9f01[m v1[m
+[33mf0683d0[m Corrige v2 revertido[m
+[33mb076c7c[m v2[m
+[33m58f33d5[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hgit log --oneline --aa ll[?2004l
+[?1h=[33maa29282[m[33m ([m[1;32mbranch1[m[33m)[m Commit na branch1[m
+[33mf619155[m[33m ([m[1;32mbranch2[m[33m)[m Commit na branch2[m
+[33m6933a38[m[33m ([m[1;32mbranch3[m[33m)[m Commit na branch3[m
+[33mc98a467[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Primeiro commit[m
+[33m7ff6fe1[m Resolve conflito de A e B[m
+[33md56de96[m[33m ([m[1;32mfeature-b[m[33m)[m Feature A[m
+[33m67e35d8[m Feature B[m
+[33m2638c05[m add lab2.sessao2[m
+[33m4fb4634[m add lab2.sessao2[m
+[33mcf073ea[m Feature B[m
+[33mde01cb9[m[33m ([m[1;32mfeature-a[m[33m)[m Feature A[m
+[33ma5578c7[m v3 main[m
+[33m130ddeb[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m v2 main[m
+[33m8a849ab[m[33m ([m[1;31morigin/main[m[33m)[m add files lab1[m
+[33m1f0b481[m algum commit[m
+[33m73cf8fe[m commit 2[m
+[33m93bca3a[m commit 1[m
+[33mdf8a189[m v4[m
+[33md6a02f7[m v3[m
+[33m702f85a[m v2[m
+[33m2ff9f01[m v1[m
+[33mf0683d0[m Corrige v2 revertido[m
+[33mb076c7c[m v2[m
+[33m58f33d5[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit merge ba ranch1[?2004l
+Updating c98a467..aa29282
+Fast-forward
+ arquivo.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit  g  git merge branch1 2[?2004l
+Auto-merging arquivo.txt
+CONFLICT (content): Merge conflict in arquivo.txt
+Automatic merge failed; fix conflicts and then commit the result.
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit status[?2004l
+On branch main
+Your branch is ahead of 'origin/main' by 7 commits.
+  (use "git push" to publish your local commits)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+	[31mboth modified:   arquivo.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlab2-sessao3.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit vim a
+[Japp.txt      arquivo.txt[A[0m[27m[24m[40Cgit vim a[Krquivo.txt[1m [0m[0m [?2004l
+[Jgit: 'vim' is not a git command. See 'git --help'.
+
+The most similar command is
+	var
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hgit vim arquivo.txt[1C[P[15C [16D[P[15C [16Dg[P[15C [16D[P[15C [16D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[?2004l
+[?1049h[>4;2m[?1h=[?2004h[?1004h[1;51r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[51;1H"arquivo.txt" 6L, 83B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1Hlinha 1
+<<<<<<< HEAD[2;13H[K[3;1Hlinha 2 na branch1[3;19H[K[4;1H=======
+linha 2 na branch2
+>>>>>>> branch2
+[94m~                                                                                       [8;1H~                                                                                       [9;1H~                                                                                       [10;1H~                                                                                       [11;1H~                                                                                       [12;1H~                                                                                       [13;1H~                                                                                       [14;1H~                                                                                       [15;1H~                                                                                       [16;1H~                                                                                       [17;1H~                                                                                       [18;1H~                                                                                       [19;1H~                                                                                       [20;1H~                                                                                       [21;1H~                                                                                       [22;1H~                                                                                       [23;1H~                                                                                       [24;1H~                                                                                       [25;1H~                                                                                       [26;1H~                                                                                       [27;1H~                                                                                       [28;1H~                                                                                       [29;1H~                                                                                       [30;1H~                                                                                       [31;1H~                                                                                       [32;1H~                                                                                       [33;1H~                                                                                       [34;1H~                                                                                       [35;1H~                                                                                       [36;1H~                                                                                       [37;1H~                                                                                       [38;1H~                                                                                       [39;1H~                                                                                       [40;1H~                                                                                       [41;1H~                                                                                       [42;1H~                                                                                       [43;1H~                                                                                       [44;1H~                                                                                       [45;1H~                                                                                       [46;1H~                                                                                       [47;1H~                                                                                       [48;1H~                                                                                       [49;1H~                                                                                       [50;1H~                                                                                       [1;1H[?25h[?4m[?12$p[27m[23m[29m[m[H[2J[?25l[1;1Hlinha 1
+<<<<<<< HEAD
+linha 2 na branch1
+=======
+linha 2 na branch2
+>>>>>>> branch2
+[94m~                                                                                       [8;1H~                                                                                       [9;1H~                                                                                       [10;1H~                                                                                       [11;1H~                                                                                       [12;1H~                                                                                       [13;1H~                                                                                       [14;1H~                                                                                       [15;1H~                                                                                       [16;1H~                                                                                       [17;1H~                                                                                       [18;1H~                                                                                       [19;1H~                                                                                       [20;1H~                                                                                       [21;1H~                                                                                       [22;1H~                                                                                       [23;1H~                                                                                       [24;1H~                                                                                       [25;1H~                                                                                       [26;1H~                                                                                       [27;1H~                                                                                       [28;1H~                                                                                       [29;1H~                                                                                       [30;1H~                                                                                       [31;1H~                                                                                       [32;1H~                                                                                       [33;1H~                                                                                       [34;1H~                                                                                       [35;1H~                                                                                       [36;1H~                                                                                       [37;1H~                                                                                       [38;1H~                                                                                       [39;1H~                                                                                       [40;1H~                                                                                       [41;1H~                                                                                       [42;1H~                                                                                       [43;1H~                                                                                       [44;1H~                                                                                       [45;1H~                                                                                       [46;1H~                                                                                       [47;1H~                                                                                       [48;1H~                                                                                       [49;1H~                                                                                       [50;1H~                                                                                       [m[51;1H"arquivo.txt" 6L, 83B[1;1H[?25h[?25l[51;1H[1m-- INSERT --[m[51;13H[K[1;1H[?25h
+<<<<<<< HEAD[?25l[2;12H[K[2;12H[?25h[?25l[2;11H[K[2;11H[?25h[?25l[2;10H[K[2;10H[?25h[?25l[2;9H[K[2;9H[?25h[?25l[?25h[?25l[2;7H[K[2;7H[?25h[?25l[2;6H[K[2;6H[?25h[?25l[2;5H[K[2;5H[?25h[?25l[2;4H[K[2;4H[?25h[?25l[2;3H[K[2;3H[?25h[?25l[2;2H[K[2;2H[?25h[?25l[2;1H[K[2;1H[?25h[?25l[1;50r[50;1H
+[1;51r[1;1Hlinha 1[50;1H[94m~                                                                                       [1;8H[?25h[2;8H[3;8H[?25l[m[3;7H[K[3;7H[?25h[?25l[3;6H[K[3;6H[?25h[?25l[3;5H[K[3;5H[?25h[?25l[3;4H[K[3;4H[?25h[?25l[3;3H[K[3;3H[?25h[?25l[3;2H[K[3;2H[?25h[?25l[3;1H[K[3;1H[?25h[?25l[2;50r[50;1H
+[1;51r[2;1Hlinha 2 na branch1[50;1H[94m~                                                                                       [2;19H[?25h[3;19H[4;16H[?25l[m[4;15H[K[4;15H[?25h[?25l[4;14H[K[4;14H[?25h[?25l[4;13H[K[4;13H[?25h[?25l[4;12H[K[4;12H[?25h[?25l[4;11H[K[4;11H[?25h[?25l[4;10H[K[4;10H[?25h[?25l[4;9H[K[4;9H[?25h[?25l[?25h[?25l[4;7H[K[4;7H[?25h[?25l[4;6H[K[4;6H[?25h[?25l[4;5H[K[4;5H[?25h[?25l[4;4H[K[4;4H[?25h[?25l[4;3H[K[4;3H[?25h[?25l[4;2H[K[4;2H[?25h[?25l[4;1H[K[4;1H[?25h[?25l[94m~                                                                                       [3;19H[?25h[m[51;1H[K[3;18H[?25l[?25h[?25l[51;1H:[?25hwq[?25l[?2004l[>4;m"arquivo.txt" 3L, 46B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[?25h[>4;m[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit add . aq rquivo.txt[1m [0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit commit -m ""R"e"s"o"l"v"e"n"" i"" " i"d"o" "c"o"n"f"l"i"t"o"[1C[?2004l
+[main 54dd139] Resolvido conflito
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit branch[?2004l
+[?1h=  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+  feature-a[m[m
+  feature-b[m[m
+* [32mmain[m[m
+  prod[m[m
+  test[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit merge branch3[?2004l
+Auto-merging arquivo.txt
+CONFLICT (content): Merge conflict in arquivo.txt
+Automatic merge failed; fix conflicts and then commit the result.
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit status[?2004l
+On branch main
+Your branch is ahead of 'origin/main' by 9 commits.
+  (use "git push" to publish your local commits)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+	[31mboth modified:   arquivo.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlab2-sessao3.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hvvim arquivo.txt[1m [0m[0m [?2004l
+[?1049h[>4;2m[?1h=[?2004h[?1004h[1;51r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[51;1H"arquivo.txt" 7L, 102B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1Hlinha 1
+<<<<<<< HEAD[2;13H[K[3;1Hlinha 2 na branch1[3;19H[K[4;1Hlinha 2 na branch2
+=======
+linha 2 na branch3
+>>>>>>> branch3
+[94m~                                                                                       [9;1H~                                                                                       [10;1H~                                                                                       [11;1H~                                                                                       [12;1H~                                                                                       [13;1H~                                                                                       [14;1H~                                                                                       [15;1H~                                                                                       [16;1H~                                                                                       [17;1H~                                                                                       [18;1H~                                                                                       [19;1H~                                                                                       [20;1H~                                                                                       [21;1H~                                                                                       [22;1H~                                                                                       [23;1H~                                                                                       [24;1H~                                                                                       [25;1H~                                                                                       [26;1H~                                                                                       [27;1H~                                                                                       [28;1H~                                                                                       [29;1H~                                                                                       [30;1H~                                                                                       [31;1H~                                                                                       [32;1H~                                                                                       [33;1H~                                                                                       [34;1H~                                                                                       [35;1H~                                                                                       [36;1H~                                                                                       [37;1H~                                                                                       [38;1H~                                                                                       [39;1H~                                                                                       [40;1H~                                                                                       [41;1H~                                                                                       [42;1H~                                                                                       [43;1H~                                                                                       [44;1H~                                                                                       [45;1H~                                                                                       [46;1H~                                                                                       [47;1H~                                                                                       [48;1H~                                                                                       [49;1H~                                                                                       [50;1H~                                                                                       [1;1H[?25h[?4m[?12$p[27m[23m[29m[m[H[2J[?25l[1;1Hlinha 1
+<<<<<<< HEAD
+linha 2 na branch1
+linha 2 na branch2
+=======
+linha 2 na branch3
+>>>>>>> branch3
+[94m~                                                                                       [9;1H~                                                                                       [10;1H~                                                                                       [11;1H~                                                                                       [12;1H~                                                                                       [13;1H~                                                                                       [14;1H~                                                                                       [15;1H~                                                                                       [16;1H~                                                                                       [17;1H~                                                                                       [18;1H~                                                                                       [19;1H~                                                                                       [20;1H~                                                                                       [21;1H~                                                                                       [22;1H~                                                                                       [23;1H~                                                                                       [24;1H~                                                                                       [25;1H~                                                                                       [26;1H~                                                                                       [27;1H~                                                                                       [28;1H~                                                                                       [29;1H~                                                                                       [30;1H~                                                                                       [31;1H~                                                                                       [32;1H~                                                                                       [33;1H~                                                                                       [34;1H~                                                                                       [35;1H~                                                                                       [36;1H~                                                                                       [37;1H~                                                                                       [38;1H~                                                                                       [39;1H~                                                                                       [40;1H~                                                                                       [41;1H~                                                                                       [42;1H~                                                                                       [43;1H~                                                                                       [44;1H~                                                                                       [45;1H~                                                                                       [46;1H~                                                                                       [47;1H~                                                                                       [48;1H~                                                                                       [49;1H~                                                                                       [50;1H~                                                                                       [m[51;1H"arquivo.txt" 7L, 102B[1;1H[?25h
+<<<<<<< HEA[?25l[51;1H[1m-- INSERT --[m[51;13H[K[2;12H[?25hD[?25l[2;12H[K[2;12H[?25h[?25l[2;11H[K[2;11H[?25h[?25l[2;10H[K[2;10H[?25h[?25l[2;9H[K[2;9H[?25h[?25l[?25h[?25l[2;7H[K[2;7H[?25h[?25l[2;6H[K[2;6H[?25h[?25l[2;5H[K[2;5H[?25h[?25l[2;4H[K[2;4H[?25h[?25l[2;3H[K[2;3H[?25h[?25l[2;2H[K[2;2H[?25h[?25l[2;1H[K[2;1H[?25h[?25l[1;50r[50;1H
+[1;51r[1;1Hlinha 1[50;1H[94m~                                                                                       [1;8H[?25h[2;8H[3;8H[4;8H[?25l[m[4;7H[K[4;7H[?25h[?25l[4;6H[K[4;6H[?25h[?25l[4;5H[K[4;5H[?25h[?25l[4;4H[K[4;4H[?25h[?25l[4;3H[K[4;3H[?25h[?25l[4;2H[K[4;2H[?25h[?25l[4;1H[K[4;1H[?25h[?25l[3;50r[50;1H
+[1;51r[3;1Hlinha 2 na branch2[50;1H[94m~                                                                                       [3;19H[?25h[4;19H[5;16H[?25l[m[5;15H[K[5;15H[?25h[?25l[5;14H[K[5;14H[?25h[?25l[5;13H[K[5;13H[?25h[?25l[5;12H[K[5;12H[?25h[?25l[5;11H[K[5;11H[?25h[?25l[5;10H[K[5;10H[?25h[?25l[5;9H[K[5;9H[?25h[?25l[?25h[?25l[5;7H[K[5;7H[?25h[?25l[5;6H[K[5;6H[?25h[?25l[5;5H[K[5;5H[?25h[?25l[5;4H[K[5;4H[?25h[?25l[5;3H[K[5;3H[?25h[?25l[5;2H[K[5;2H[?25h[?25l[5;1H[K[5;1H[?25h[?25l[94m~                                                                                       [4;19H[?25h[m[51;1H[K[4;18H[?25l[?25h[?25l[51;1H:[?25hwq[?25l[?2004l[>4;m"arquivo.txt" 4L, 65B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[?25h[>4;m[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hvim arquivo.txt[15Dgit status     merge branch3[13Dbranch       commit -m "Resolvido conflito"[30Dadd arquivo.txt               [15D[?2004l
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hgit add arquivo.txt[19Dvim[2C[4P[10C    [15Dgit status     merge branch3[13Dbranch       commit -m "Resolvido conflito" "b"r"a"n"c"h"3"[1C[?2004l
+[main 668d434] Resolvido conflito branch3
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit st tatus[?2004l
+On branch main
+Your branch is ahead of 'origin/main' by 11 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlab2-sessao3.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit log --oneline --all[27m[23D[27mg[27mi[27mt[27m [27ml[27mo[27mg[27m [27m-[27m-[27mo[27mn[27me[27ml[27mi[27mn[27me[27m [27m-[27m-[27ma[27ml[27ml[?2004l
+[?1h=[33m668d434[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Resolvido conflito branch3[m
+[33m54dd139[m Resolvido conflito[m
+[33maa29282[m[33m ([m[1;32mbranch1[m[33m)[m Commit na branch1[m
+[33mf619155[m[33m ([m[1;32mbranch2[m[33m)[m Commit na branch2[m
+[33m6933a38[m[33m ([m[1;32mbranch3[m[33m)[m Commit na branch3[m
+[33mc98a467[m Primeiro commit[m
+[33m7ff6fe1[m Resolve conflito de A e B[m
+[33md56de96[m[33m ([m[1;32mfeature-b[m[33m)[m Feature A[m
+[33m67e35d8[m Feature B[m
+[33m2638c05[m add lab2.sessao2[m
+[33m4fb4634[m add lab2.sessao2[m
+[33mcf073ea[m Feature B[m
+[33mde01cb9[m[33m ([m[1;32mfeature-a[m[33m)[m Feature A[m
+[33ma5578c7[m v3 main[m
+[33m130ddeb[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m v2 main[m
+[33m8a849ab[m[33m ([m[1;31morigin/main[m[33m)[m add files lab1[m
+[33m1f0b481[m algum commit[m
+[33m73cf8fe[m commit 2[m
+[33m93bca3a[m commit 1[m
+[33mdf8a189[m v4[m
+[33md6a02f7[m v3[m
+[33m702f85a[m v2[m
+[33m2ff9f01[m v1[m
+[33mf0683d0[m Corrige v2 revertido[m
+[33mb076c7c[m v2[m
+[33m58f33d5[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mexit[27m[27me[27mx[27mi[27mt[?2004l
+
+Script done on Fri Aug  8 14:06:02 2025

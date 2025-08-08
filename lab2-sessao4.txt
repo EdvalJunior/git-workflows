@@ -1,0 +1,53 @@
+Script started on Fri Aug  8 14:06:22 2025
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mtouch .env[27m[10D[27mt[27mo[27mu[27mc[27mh[27m [27m.[27me[27mn[27mv[?2004l
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hlls[?2004l
+README.md		lab1-sessao3.txt	lab2-sessao2.txt
+app.txt			lab1-sessao4.txt	lab2-sessao3.txt
+arquivo.txt		lab1-sessao5.txt	lab2-sessao4.txt
+lab1-sessao1.txt	lab1-session6.txt	notas.txt
+lab1-sessao2.txt	lab2-sessao1.txt
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004httouch    t  ttouc  t  [7mecho ".env" >> .gitignore[27m[25D[27me[27mc[27mh[27mo[27m [27m"[27m.[27me[27mn[27mv[27m"[27m [27m>[27m>[27m [27m.[27mg[27mi[27mt[27mi[27mg[27mn[27mo[27mr[27me[?2004l
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit status[27m
+[7mcat .gitignore[27m[K[A[26C[27mg[27mi[27mt[27m [27ms[27mt[27ma[27mt[27mu[27ms[1B[27mc[27ma[27mt[27m [27m.[27mg[27mi[27mt[27mi[27mg[27mn[27mo[27mr[27me[?2004l
+On branch main
+Your branch is ahead of 'origin/main' by 11 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31mlab2-sessao3.txt[m
+	[31mlab2-sessao4.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+.env
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit log --oneline --all[27m[23D[27mg[27mi[27mt[27m [27ml[27mo[27mg[27m [27m-[27m-[27mo[27mn[27me[27ml[27mi[27mn[27me[27m [27m-[27m-[27ma[27ml[27ml[?2004l
+[?1h=[33m668d434[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Resolvido conflito branch3[m
+[33m54dd139[m Resolvido conflito[m
+[33maa29282[m[33m ([m[1;32mbranch1[m[33m)[m Commit na branch1[m
+[33mf619155[m[33m ([m[1;32mbranch2[m[33m)[m Commit na branch2[m
+[33m6933a38[m[33m ([m[1;32mbranch3[m[33m)[m Commit na branch3[m
+[33mc98a467[m Primeiro commit[m
+[33m7ff6fe1[m Resolve conflito de A e B[m
+[33md56de96[m[33m ([m[1;32mfeature-b[m[33m)[m Feature A[m
+[33m67e35d8[m Feature B[m
+[33m2638c05[m add lab2.sessao2[m
+[33m4fb4634[m add lab2.sessao2[m
+[33mcf073ea[m Feature B[m
+[33mde01cb9[m[33m ([m[1;32mfeature-a[m[33m)[m Feature A[m
+[33ma5578c7[m v3 main[m
+[33m130ddeb[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m v2 main[m
+[33m8a849ab[m[33m ([m[1;31morigin/main[m[33m)[m add files lab1[m
+[33m1f0b481[m algum commit[m
+[33m73cf8fe[m commit 2[m
+[33m93bca3a[m commit 1[m
+[33mdf8a189[m v4[m
+[33md6a02f7[m v3[m
+[33m702f85a[m v2[m
+[33m2ff9f01[m v1[m
+[33mf0683d0[m Corrige v2 revertido[m
+[33mb076c7c[m v2[m
+[33m58f33d5[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004heexit[?2004l
+
+Script done on Fri Aug  8 14:08:07 2025
