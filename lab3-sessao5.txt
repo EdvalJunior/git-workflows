@@ -1,0 +1,246 @@
+Script started on Fri Aug  8 15:09:14 2025
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit branch[?2004l
+[?1h=  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+  feature[m[m
+  feature-123[m[m
+  feature-456[m[m
+  feature-a[m[m
+  feature-b[m[m
+* [32mmain[m[m
+  prod[m[m
+  test[m[m
+  test-reset[m[m
+  test_hard[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit log[27m
+[7mgit checkout -b test_revert[27m[K[A[13C[27mg[27mi[27mt[27m [27ml[27mo[27mg[1B[27mg[27mi[27mt[27m [27mc[27mh[27me[27mc[27mk[27mo[27mu[27mt[27m [27m-[27mb[27m [27mt[27me[27ms[27mt[27m_[27mr[27me[27mv[27me[27mr[27mt[?2004l
+[?1h=[33mcommit 4a74c41e1da46284a660435ff0b460ca3cc7a619[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m[m
+Merge: ec6d8cc 33c1d2b[m
+Author: edvaljunior <juniorronj@alu.ufc.br>[m
+Date:   Fri Aug 8 14:59:52 2025 -0300[m
+[m
+    Merge branch 'main' into test-reset[m
+[m
+[33mcommit ec6d8cc3abe8d1be1f8af323b060966143e94f7a[m[m
+Author: edvaljunior <juniorronj@alu.ufc.br>[m
+Date:   Fri Aug 8 14:55:19 2025 -0300[m
+[m
+    ägora vai[m
+[m
+[33mcommit 33c1d2bcd16b0d020c37a7a8733f4ec940d3fdc3[m[m
+Author: edvaljunior <juniorronj@alu.ufc.br>[m
+Date:   Fri Aug 8 14:52:21 2025 -0300[m
+[m
+    commit limpo[m
+[m
+[33mcommit 13be17652a063a34b11f2f8409b83a73b42c7d66[m[33m ([m[1;33mtag: [m[1;33mv1.2[m[33m)[m[m
+Author: edvaljunior <juniorronj@alu.ufc.br>[m
+Date:   Fri Aug 8 14:48:08 2025 -0300[m
+[m
+    Commit 3[m
+[m
+[33mcommit a0598e38b2dba2c118fcea6308df4d79a572af2e[m[33m ([m[1;33mtag: [m[1;33mv1.1[m[33m)[m[m
+Author: edvaljunior <juniorronj@alu.ufc.br>[m
+Date:   Fri Aug 8 14:48:08 2025 -0300[m
+[m
+    Commit 2[m
+[m
+[33mcommit c554909acec97b3b3a8259087a4135a02a6ca503[m[33m ([m[1;33mtag: [m[1;33mv1.0[m[33m)[m[m
+Author: edvaljunior <juniorronj@alu.ufc.br>[m
+Date:   Fri Aug 8 14:48:08 2025 -0300[m
+[m
+    Commit 1[m
+[m
+[33mcommit 686e58f8d637173b3be1f8dfa91135dcbc28685d[m[33m ([m[1;31morigin/main[m[33m)[m[m
+Author: edvaljunior <juniorronj@alu.ufc.br>[m
+Date:   Fri Aug 8 14:13:35 2025 -0300[m
+[m
+    commit base[m
+[m
+[33mcommit 6195be52cffa63b2781e1be5650c22c7cd5defba[m[33m ([m[1;32mfeature[m[33m)[m[m
+Author: edvaljunior <juniorronj@alu.ufc.br>[m
+Date:   Fri Aug 8 14:09:02 2025 -0300[m
+[m
+    commit no main[m
+[m
+[33mcommit 668d4344698c468483f538be0c919824237dcb6c[m[m
+:[K[KMerge: 54dd139 6933a38[m
+:[K[KAuthor: edvaljunior <juniorronj@alu.ufc.br>[m
+:[K[KDate:   Fri Aug 8 14:05:34 2025 -0300[m
+:[K[K[m
+:[K[K    Resolvido conflito branch3[m
+:[K[K[m
+:[K[K[33mcommit 54dd1393154133521dbee4145e7c2b0a0ecf9208[m[m
+:[K[KMerge: aa29282 f619155[m
+:[K[KAuthor: edvaljunior <juniorronj@alu.ufc.br>[m
+:[K[KDate:   Fri Aug 8 14:04:21 2025 -0300[m
+:[K[K[m
+:[K[K    Resolvido conflito[m
+:[K[K[m
+:[K[K[33mcommit 6933a388a6c397f48037654ea90e23dfba59609b[m[33m ([m[1;32mbranch3[m[33m)[m[m
+:[K[KAuthor: edvaljunior <juniorronj@alu.ufc.br>[m
+:[K[KDate:   Fri Aug 8 14:00:18 2025 -0300[m
+:[K[K[m
+:[K[K    Commit na branch3[m
+:[K[K[m
+:[K[K[33mcommit aa292825601cb4a6f83e3a34d3c0f7c29a121efd[m[33m ([m[1;32mbranch1[m[33m)[m[m
+:[K[KAuthor: edvaljunior <juniorronj@alu.ufc.br>[m
+:[K[KDate:   Fri Aug 8 14:00:18 2025 -0300[m
+:[K[K[m
+:[K[K    Commit na branch1[m
+:[K[K[m
+:[K[K[33mcommit f61915540d64d0c0470cd867ef4f5ea113c793a9[m[33m ([m[1;32mbranch2[m[33m)[m[m
+:[K[KAuthor: edvaljunior <juniorronj@alu.ufc.br>[m
+:[K[KDate:   Fri Aug 8 14:00:18 2025 -0300[m
+:[K[K[m
+:[K[K    Commit na branch2[m
+:[K[K[m
+:[K[K[33mcommit c98a467b511317c46cbb1e43c0930c4291311bc8[m[m
+:[K[KAuthor: edvaljunior <juniorronj@alu.ufc.br>[m
+:[K[KDate:   Fri Aug 8 13:59:36 2025 -0300[m
+:[K[K[?1l>Switched to a new branch 'test_revert'
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit revert HEAD~1[27m[17D[27mg[27mi[27mt[27m [27mr[27me[27mv[27me[27mr[27mt[27m [27mH[27mE[27mA[27mD[27m~[27m1             g  ggit log --oneline --all[?2004l
+[?1h=[33m03fe06f[m[33m ([m[1;32mtest_hard[m[33m)[m add lab3-sessao4.txt[m
+[33m0983c8f[m[33m ([m[1;32mtest-reset[m[33m)[m lab3-sessao3.txt[m
+[33m30fde10[m agora vai[m
+[33m4a74c41[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mtest_revert[m[33m, [m[1;32mmain[m[33m)[m Merge branch 'main' into test-reset[m
+[33mec6d8cc[m ägora vai[m
+[33m33c1d2b[m commit limpo[m
+[33mc554909[m[33m ([m[1;33mtag: [m[1;33mv1.0[m[33m)[m Commit 1[m
+[33ma0598e3[m[33m ([m[1;33mtag: [m[1;33mv1.1[m[33m)[m Commit 2[m
+[33m13be176[m[33m ([m[1;33mtag: [m[1;33mv1.2[m[33m)[m Commit 3[m
+[33md6802a7[m[33m ([m[1;32mfeature-123[m[33m)[m Alteração no branch A[m
+[33m5bb313c[m[33m ([m[1;32mfeature-456[m[33m)[m Alteração no branch B[m
+[33m686e58f[m[33m ([m[1;31morigin/main[m[33m)[m commit base[m
+[33m6195be5[m[33m ([m[1;32mfeature[m[33m)[m commit no main[m
+[33m668d434[m Resolvido conflito branch3[m
+[33m54dd139[m Resolvido conflito[m
+[33maa29282[m[33m ([m[1;32mbranch1[m[33m)[m Commit na branch1[m
+[33mf619155[m[33m ([m[1;32mbranch2[m[33m)[m Commit na branch2[m
+[33m6933a38[m[33m ([m[1;32mbranch3[m[33m)[m Commit na branch3[m
+[33mc98a467[m Primeiro commit[m
+[33m7ff6fe1[m Resolve conflito de A e B[m
+[33md56de96[m[33m ([m[1;32mfeature-b[m[33m)[m Feature A[m
+[33m67e35d8[m Feature B[m
+[33m2638c05[m add lab2.sessao2[m
+[33m4fb4634[m add lab2.sessao2[m
+[33mcf073ea[m Feature B[m
+[33mde01cb9[m[33m ([m[1;32mfeature-a[m[33m)[m Feature A[m
+[33ma5578c7[m v3 main[m
+[33m130ddeb[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m v2 main[m
+[33m8a849ab[m add files lab1[m
+[33m1f0b481[m algum commit[m
+[33m73cf8fe[m commit 2[m
+[33m93bca3a[m commit 1[m
+[33mdf8a189[m v4[m
+[33md6a02f7[m v3[m
+[33m702f85a[m v2[m
+[33m2ff9f01[m v1[m
+[33mf0683d0[m Corrige v2 revertido[m
+[33mb076c7c[m v2[m
+[33m58f33d5[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit revert HEAD~1[27m[17D[27mg[27mi[27mt[27m [27mr[27me[27mv[27me[27mr[27mt[27m [27mH[27mE[27mA[27mD[27m~[27m1[?2004l
+hint: Waiting for your editor to close the file... [K[test_revert 7ae9dde] Revert "ägora vai"
+ 5 files changed, 193 deletions(-)
+ delete mode 100644 app.py
+ delete mode 100644 lab3-sessao0.txt
+ delete mode 100644 lab3-sessao1.txt
+ delete mode 100644 lab3-sessao2.txt
+ delete mode 100644 lab3-sessao3.txt
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit log[27m[27mg[27mi[27mt[27m [27ml[27mo[27mg[?2004l
+[?1h=[33mcommit 7ae9dde20acfded3de4faad91717ed178f199688[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mtest_revert[m[33m)[m[m
+Author: edvaljunior <juniorronj@alu.ufc.br>[m
+Date:   Fri Aug 8 15:10:30 2025 -0300[m
+[m
+    Revert "ägora vai"[m
+    [m
+    This reverts commit ec6d8cc3abe8d1be1f8af323b060966143e94f7a.[m
+[m
+[33mcommit 4a74c41e1da46284a660435ff0b460ca3cc7a619[m[33m ([m[1;32mmain[m[33m)[m[m
+Merge: ec6d8cc 33c1d2b[m
+Author: edvaljunior <juniorronj@alu.ufc.br>[m
+Date:   Fri Aug 8 14:59:52 2025 -0300[m
+[m
+    Merge branch 'main' into test-reset[m
+[m
+[33mcommit ec6d8cc3abe8d1be1f8af323b060966143e94f7a[m[m
+Author: edvaljunior <juniorronj@alu.ufc.br>[m
+Date:   Fri Aug 8 14:55:19 2025 -0300[m
+[m
+    ägora vai[m
+[m
+[33mcommit 33c1d2bcd16b0d020c37a7a8733f4ec940d3fdc3[m[m
+Author: edvaljunior <juniorronj@alu.ufc.br>[m
+Date:   Fri Aug 8 14:52:21 2025 -0300[m
+[m
+    commit limpo[m
+[m
+[33mcommit 13be17652a063a34b11f2f8409b83a73b42c7d66[m[33m ([m[1;33mtag: [m[1;33mv1.2[m[33m)[m[m
+Author: edvaljunior <juniorronj@alu.ufc.br>[m
+Date:   Fri Aug 8 14:48:08 2025 -0300[m
+[m
+    Commit 3[m
+[m
+[33mcommit a0598e38b2dba2c118fcea6308df4d79a572af2e[m[33m ([m[1;33mtag: [m[1;33mv1.1[m[33m)[m[m
+Author: edvaljunior <juniorronj@alu.ufc.br>[m
+Date:   Fri Aug 8 14:48:08 2025 -0300[m
+[m
+    Commit 2[m
+[m
+[33mcommit c554909acec97b3b3a8259087a4135a02a6ca503[m[33m ([m[1;33mtag: [m[1;33mv1.0[m[33m)[m[m
+Author: edvaljunior <juniorronj@alu.ufc.br>[m
+Date:   Fri Aug 8 14:48:08 2025 -0300[m
+[m
+    Commit 1[m
+[m
+[33mcommit 686e58f8d637173b3be1f8dfa91135dcbc28685d[m[33m ([m[1;31morigin/main[m[33m)[m[m
+Author: edvaljunior <juniorronj@alu.ufc.br>[m
+Date:   Fri Aug 8 14:13:35 2025 -0300[m
+[m
+    commit base[m
+:[K[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hc git logrevert HEAD~1[13Dlog --oneline --all[?2004l
+[?1h=[33m7ae9dde[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mtest_revert[m[33m)[m Revert "ägora vai"[m
+[33m03fe06f[m[33m ([m[1;32mtest_hard[m[33m)[m add lab3-sessao4.txt[m
+[33m0983c8f[m[33m ([m[1;32mtest-reset[m[33m)[m lab3-sessao3.txt[m
+[33m30fde10[m agora vai[m
+[33m4a74c41[m[33m ([m[1;32mmain[m[33m)[m Merge branch 'main' into test-reset[m
+[33mec6d8cc[m ägora vai[m
+[33m33c1d2b[m commit limpo[m
+[33mc554909[m[33m ([m[1;33mtag: [m[1;33mv1.0[m[33m)[m Commit 1[m
+[33ma0598e3[m[33m ([m[1;33mtag: [m[1;33mv1.1[m[33m)[m Commit 2[m
+[33m13be176[m[33m ([m[1;33mtag: [m[1;33mv1.2[m[33m)[m Commit 3[m
+[33md6802a7[m[33m ([m[1;32mfeature-123[m[33m)[m Alteração no branch A[m
+[33m5bb313c[m[33m ([m[1;32mfeature-456[m[33m)[m Alteração no branch B[m
+[33m686e58f[m[33m ([m[1;31morigin/main[m[33m)[m commit base[m
+[33m6195be5[m[33m ([m[1;32mfeature[m[33m)[m commit no main[m
+[33m668d434[m Resolvido conflito branch3[m
+[33m54dd139[m Resolvido conflito[m
+[33maa29282[m[33m ([m[1;32mbranch1[m[33m)[m Commit na branch1[m
+[33mf619155[m[33m ([m[1;32mbranch2[m[33m)[m Commit na branch2[m
+[33m6933a38[m[33m ([m[1;32mbranch3[m[33m)[m Commit na branch3[m
+[33mc98a467[m Primeiro commit[m
+[33m7ff6fe1[m Resolve conflito de A e B[m
+[33md56de96[m[33m ([m[1;32mfeature-b[m[33m)[m Feature A[m
+[33m67e35d8[m Feature B[m
+[33m2638c05[m add lab2.sessao2[m
+[33m4fb4634[m add lab2.sessao2[m
+[33mcf073ea[m Feature B[m
+[33mde01cb9[m[33m ([m[1;32mfeature-a[m[33m)[m Feature A[m
+[33ma5578c7[m v3 main[m
+[33m130ddeb[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m v2 main[m
+[33m8a849ab[m add files lab1[m
+[33m1f0b481[m algum commit[m
+[33m73cf8fe[m commit 2[m
+[33m93bca3a[m commit 1[m
+[33mdf8a189[m v4[m
+[33md6a02f7[m v3[m
+[33m702f85a[m v2[m
+[33m2ff9f01[m v1[m
+[33mf0683d0[m Corrige v2 revertido[m
+[33mb076c7c[m v2[m
+[33m58f33d5[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004heexit[?2004l
+
+Script done on Fri Aug  8 15:11:23 2025
