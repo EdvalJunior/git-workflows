@@ -1,93 +1,0 @@
-Script started on Fri Aug  8 14:47:57 2025
-[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mecho "linha 1" > log.txt[27m
-[7mgit add log.txt[27m[K
-[7mgit commit -m "Commit 1"[27m[K
-[K
-[7mecho "linha 2" >> log.txt[27m[K
-[7mgit commit -am "Commit 2"[27m[K
-[K
-[7mecho "linha 3" >> log.txt[27m[K
-[7mgit commit -am "Commit 3"[27m[K[8A[15C[27me[27mc[27mh[27mo[27m [27m"[27ml[27mi[27mn[27mh[27ma[27m [27m1[27m"[27m [27m>[27m [27ml[27mo[27mg[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27ml[27mo[27mg[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mC[27mo[27mm[27mm[27mi[27mt[27m [27m1[27m"[2B[27me[27mc[27mh[27mo[27m [27m"[27ml[27mi[27mn[27mh[27ma[27m [27m2[27m"[27m [27m>[27m>[27m [27ml[27mo[27mg[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mC[27mo[27mm[27mm[27mi[27mt[27m [27m2[27m"[2B[27me[27mc[27mh[27mo[27m [27m"[27ml[27mi[27mn[27mh[27ma[27m [27m3[27m"[27m [27m>[27m>[27m [27ml[27mo[27mg[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mC[27mo[27mm[27mm[27mi[27mt[27m [27m3[27m"[?2004l
-[main c554909] Commit 1
- 1 file changed, 1 insertion(+)
- create mode 100644 log.txt
-[main a0598e3] Commit 2
- 1 file changed, 1 insertion(+)
-[main 13be176] Commit 3
- 1 file changed, 1 insertion(+)
-[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit log --oneline[27m[17D[27mg[27mi[27mt[27m [27ml[27mo[27mg[27m [27m-[27m-[27mo[27mn[27me[27ml[27mi[27mn[27me[?2004l
-[?1h=[33m13be176[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Commit 3[m
-[33ma0598e3[m Commit 2[m
-[33mc554909[m Commit 1[m
-[33m686e58f[m[33m ([m[1;31morigin/main[m[33m)[m commit base[m
-[33m6195be5[m[33m ([m[1;32mfeature[m[33m)[m commit no main[m
-[33m668d434[m Resolvido conflito branch3[m
-[33m54dd139[m Resolvido conflito[m
-[33m6933a38[m[33m ([m[1;32mbranch3[m[33m)[m Commit na branch3[m
-[33maa29282[m[33m ([m[1;32mbranch1[m[33m)[m Commit na branch1[m
-[33mf619155[m[33m ([m[1;32mbranch2[m[33m)[m Commit na branch2[m
-[33mc98a467[m Primeiro commit[m
-[33m7ff6fe1[m Resolve conflito de A e B[m
-[33m67e35d8[m Feature B[m
-[33mde01cb9[m[33m ([m[1;32mfeature-a[m[33m)[m Feature A[m
-[33ma5578c7[m v3 main[m
-[33m130ddeb[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m v2 main[m
-[33m8a849ab[m add files lab1[m
-[33m1f0b481[m algum commit[m
-[33m73cf8fe[m commit 2[m
-[33m93bca3a[m commit 1[m
-[33mdf8a189[m v4[m
-[33md6a02f7[m v3[m
-[33m702f85a[m v2[m
-[33m2ff9f01[m v1[m
-[33mf0683d0[m Corrige v2 revertido[m
-[33mb076c7c[m v2[m
-[33m58f33d5[m v1[m
-[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit tag v1.0 HEAD~2[27m[19D[27mg[27mi[27mt[27m [27mt[27ma[27mg[27m [27mv[27m1[27m.[27m0[27m [27mH[27mE[27mA[27mD[27m~[27m2[?2004l
-[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit tag v1.1 HEAD~1[27m[19D[27mg[27mi[27mt[27m [27mt[27ma[27mg[27m [27mv[27m1[27m.[27m1[27m [27mH[27mE[27mA[27mD[27m~[27m1[?2004l
-[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit tag v1.2 HEAD[27m[17D[27mg[27mi[27mt[27m [27mt[27ma[27mg[27m [27mv[27m1[27m.[27m2[27m [27mH[27mE[27mA[27mD[?2004l
-[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit tag[27m[27mg[27mi[27mt[27m [27mt[27ma[27mg[?2004l
-[?1h=v1.0[m
-v1.1[m
-v1.2[m
-[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit show v1.1[27m[13D[27mg[27mi[27mt[27m [27ms[27mh[27mo[27mw[27m [27mv[27m1[27m.[27m1[?2004l
-[?1h=[33mcommit a0598e38b2dba2c118fcea6308df4d79a572af2e[m[33m ([m[1;33mtag: [m[1;33mv1.1[m[33m)[m[m
-Author: edvaljunior <juniorronj@alu.ufc.br>[m
-Date:   Fri Aug 8 14:48:08 2025 -0300[m
-[m
-    Commit 2[m
-[m
-[1mdiff --git a/log.txt b/log.txt[m[m
-[1mindex 9ece502..b657d30 100644[m[m
-[1m--- a/log.txt[m[m
-[1m+++ b/log.txt[m[m
-[36m@@ -1 +1,2 @@[m[m
- linha 1[m[m
-[32m+[m[32mlinha 2[m[m
-[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit checkout v1.0[27m[17D[27mg[27mi[27mt[27m [27mc[27mh[27me[27mc[27mk[27mo[27mu[27mt[27m [27mv[27m1[27m.[27m0[?2004l
-Note: switching to 'v1.0'.
-
-You are in 'detached HEAD' state. You can look around, make experimental
-changes and commit them, and you can discard any commits you make in this
-state without impacting any branches by switching back to a branch.
-
-If you want to create a new branch to retain commits you create, you may
-do so (now or later) by using -c with the switch command. Example:
-
-  git switch -c <new-branch-name>
-
-Or undo this operation with:
-
-  git switch -
-
-Turn off this advice by setting config variable advice.detachedHead to false
-
-HEAD is now at c554909 Commit 1
-[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit checkout main[27m[17D[27mg[27mi[27mt[27m [27mc[27mh[27me[27mc[27mk[27mo[27mu[27mt[27m [27mm[27ma[27mi[27mn[?2004l
-Previous HEAD position was c554909 Commit 1
-Switched to branch 'main'
-Your branch is ahead of 'origin/main' by 3 commits.
-  (use "git push" to publish your local commits)
-[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004heexit[?2004l
-
-Script done on Fri Aug  8 14:50:30 2025

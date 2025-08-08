@@ -1,59 +1,0 @@
-Script started on Fri Aug  8 14:52:46 2025
-[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit branch # main[27m[17D[27mg[27mi[27mt[27m [27mb[27mr[27ma[27mn[27mc[27mh[27m [27m#[27m [27mm[27ma[27mi[27mn     [?2004l
-[?1h=  branch1[m[m
-  branch2[m[m
-  branch3[m[m
-  feature[m[m
-  feature-123[m[m
-  feature-456[m[m
-  feature-a[m[m
-  feature-b[m[m
-* [32mmain[m[m
-  prod[m[m
-  test[m[m
-[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit log --oneline[27m
-[7mgit checkout -b test-reset[27m[K[A[14C[27mg[27mi[27mt[27m [27ml[27mo[27mg[27m [27m-[27m-[27mo[27mn[27me[27ml[27mi[27mn[27me[1B[27mg[27mi[27mt[27m [27mc[27mh[27me[27mc[27mk[27mo[27mu[27mt[27m [27m-[27mb[27m [27mt[27me[27ms[27mt[27m-[27mr[27me[27ms[27me[27mt[?2004l
-[?1h=[33m33c1d2b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m commit limpo[m
-[33m13be176[m[33m ([m[1;33mtag: [m[1;33mv1.2[m[33m)[m Commit 3[m
-[33ma0598e3[m[33m ([m[1;33mtag: [m[1;33mv1.1[m[33m)[m Commit 2[m
-[33mc554909[m[33m ([m[1;33mtag: [m[1;33mv1.0[m[33m)[m Commit 1[m
-[33m686e58f[m[33m ([m[1;31morigin/main[m[33m)[m commit base[m
-[33m6195be5[m[33m ([m[1;32mfeature[m[33m)[m commit no main[m
-[33m668d434[m Resolvido conflito branch3[m
-[33m54dd139[m Resolvido conflito[m
-[33m6933a38[m[33m ([m[1;32mbranch3[m[33m)[m Commit na branch3[m
-[33maa29282[m[33m ([m[1;32mbranch1[m[33m)[m Commit na branch1[m
-[33mf619155[m[33m ([m[1;32mbranch2[m[33m)[m Commit na branch2[m
-[33mc98a467[m Primeiro commit[m
-[33m7ff6fe1[m Resolve conflito de A e B[m
-[33m67e35d8[m Feature B[m
-[33mde01cb9[m[33m ([m[1;32mfeature-a[m[33m)[m Feature A[m
-[33ma5578c7[m v3 main[m
-[33m130ddeb[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m v2 main[m
-[33m8a849ab[m add files lab1[m
-[33m1f0b481[m algum commit[m
-[33m73cf8fe[m commit 2[m
-[33m93bca3a[m commit 1[m
-[33mdf8a189[m v4[m
-[33md6a02f7[m v3[m
-[33m702f85a[m v2[m
-[33m2ff9f01[m v1[m
-[33mf0683d0[m Corrige v2 revertido[m
-[33mb076c7c[m v2[m
-[33m58f33d5[m v1[m
-[K[?1l>Switched to a new branch 'test-reset'
-[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit reset --soft HEAD~1[27m[23D[27mg[27mi[27mt[27m [27mr[27me[27ms[27me[27mt[27m [27m-[27m-[27ms[27mo[27mf[27mt[27m [27mH[27mE[27mA[27mD[27m~[27m1[?2004l
-[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit status[?2004l
-On branch test-reset
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-	[32mnew file:   app.py[m
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	[31mlab3-sessao0.txt[m
-	[31mlab3-sessao1.txt[m
-	[31mlab3-sessao2.txt[m
-	[31mlab3-sessao3.txt[m
-
-[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h
