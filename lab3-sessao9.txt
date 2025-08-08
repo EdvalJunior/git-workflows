@@ -27,4 +27,17 @@ Turn off this advice by setting config variable advice.detachedHead to false
 HEAD is now at a0598e3 Commit 2
 [1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit switch -c branch-v1.1[27m[25D[27mg[27mi[27mt[27m [27ms[27mw[27mi[27mt[27mc[27mh[27m [27m-[27mc[27m [27mb[27mr[27ma[27mn[27mc[27mh[27m-[27mv[27m1[27m.[27m1[?2004l
 Switched to a new branch 'branch-v1.1'
-[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mecho "patch para v1.1" >> changelog.txt[27m
+[7mgit add . && git commit -m "patch para versão 1.1"[27m[K[A[10D[27me[27mc[27mh[27mo[27m [27m"[27mp[27ma[27mt[27mc[27mh[27m [27mp[27ma[27mr[27ma[27m [27mv[27m1[27m.[27m1[27m"[27m [27m>[27m>[27m [27mc[27mh[27ma[27mn[27mg[27me[27ml[27mo[27mg[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27m.[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mp[27ma[27mt[27mc[27mh[27m [27mp[27ma[27mr[27ma[27m [27mv[27me[27mr[27ms[27mã[27mo[27m [27m1[27m.[27m1[27m"[?2004l
+grep: *.py: No such file or directory
+[branch-v1.1 1b4e01c] patch para versão 1.1
+ 6 files changed, 377 insertions(+)
+ create mode 100644 changelog.txt
+ create mode 100644 lab3-sessao5.txt
+ create mode 100644 lab3-sessao6.txt
+ create mode 100644 lab3-sessao7.txt
+ create mode 100644 lab3-sessao8.txt
+ create mode 100644 lab3-sessao9.txt
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mecho "patch para v1.1" >> changelog.txt[27m
+[7mgit add . && git commit -m "patch para versão 1.1"[27m[K[A[10D[27me[27mc[27mh[27mo[27m [27m"[27mp[27ma[27mt[27mc[27mh[27m [27mp[27ma[27mr[27ma[27m [27mv[27m1[27m.[27m1[27m"[27m [27m>[27m>[27m [27mc[27mh[27ma[27mn[27mg[27me[27ml[27mo[27mg[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27m.[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mp[27ma[27mt[27mc[27mh[27m [27mp[27ma[27mr[27ma[27m [27mv[27me[27mr[27ms[27mã[27mo[27m [27m1[27m.[27m1[K                                     g [K[K[A[79C                                e  [7m1.1[27m[27m1[27m.[27m 1  eexit[?2004l[1B
+Script done on Fri Aug  8 15:19:00 2025
