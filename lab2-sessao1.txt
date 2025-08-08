@@ -1,0 +1,31 @@
+Script started on Fri Aug  8 13:43:21 2025
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit branch test[27m
+[7mgit branch prod[27m[K[A[25C[27mg[27mi[27mt[27m [27mb[27mr[27ma[27mn[27mc[27mh[27m [27mt[27me[27ms[27mt[1B[27mg[27mi[27mt[27m [27mb[27mr[27ma[27mn[27mc[27mh[27m [27mp[27mr[27mo[27md[?2004l
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mecho "v2 main" >> app.txt[27m
+[7mgit add app.txt[27m[K
+[7mgit commit -am "v2 main"[27m[K[A[A[16C[27me[27mc[27mh[27mo[27m [27m"[27mv[27m2[27m [27mm[27ma[27mi[27mn[27m"[27m [27m>[27m>[27m [27ma[27mp[27mp[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27ma[27mp[27mp[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mv[27m2[27m [27mm[27ma[27mi[27mn[27m"[?2004l
+[main 130ddeb] v2 main
+ 1 file changed, 1 insertion(+)
+ create mode 100644 app.txt
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit checkout test[?2004l
+Switched to branch 'test'
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit merge mains [?2004l
+Updating 8a849ab..130ddeb
+Fast-forward
+ app.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+ create mode 100644 app.txt
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit checkout prod[?2004l
+Switched to branch 'prod'
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit merge test[?2004l
+Updating 8a849ab..130ddeb
+Fast-forward
+ app.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+ create mode 100644 app.txt
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit checkou t main[?2004l
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hcclear   c  [7mecho "v3 main" >> app.txt[27m[25D[27me[27mc[27mh[27mo[27m [27m"[27mv[27m3[27m [27mm[27ma[27mi[27mn[27m"[27m [27m>[27m>[27m [27ma[27mp[27mp[27m.[27mt[27mx[27mt[?2004l
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h
