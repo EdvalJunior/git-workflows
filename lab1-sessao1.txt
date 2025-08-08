@@ -4,4 +4,61 @@ Reinitialized existing Git repository in /Users/edvaljunior/Documents/POS ES com
 [1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mecho "v1" > notas.txt[27m
 [7mgit add . && git commit -m "v1"[27m[K
 [7mecho "v2" >> notas.txt && git commit -am "v2"[27m[K
-[7mecho "v3" >> notas.txt && git commit -am "v3"[27m[K[3A[27me[27mc[27mh[27mo[27m [27m"[27mv[27m1[27m"[27m [27m>[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27m.[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mv[27m1[27m"[1B[27me[27mc[27mh[27mo[27m [27m"[27mv[27m2[27m"[27m [27m>[27m>[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mv[27m2[27m"[1B[27me[27mc[27mh[27mo[27m [27m"[27mv[27m3[27m"[27m [27m>[27m>[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mv[27m3[27m"
+[7mecho "v3" >> notas.txt && git commit -am "v3"[27m[K[3A[27me[27mc[27mh[27mo[27m [27m"[27mv[27m1[27m"[27m [27m>[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27m.[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mv[27m1[27m"[1B[27me[27mc[27mh[27mo[27m [27m"[27mv[27m2[27m"[27m [27m>[27m>[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mv[27m2[27m"[1B[27me[27mc[27mh[27mo[27m [27m"[27mv[27m3[27m"[27m [27m>[27m>[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mv[27m3[27m"[?2004l
+[main (root-commit) 58f33d5] v1
+ 2 files changed, 8 insertions(+)
+ create mode 100644 lab1-sessao1.txt
+ create mode 100644 notas.txt
+[main b076c7c] v2
+ 1 file changed, 1 insertion(+)
+[main a52137d] v3
+ 1 file changed, 1 insertion(+)
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mecho "v1" > notas.txt[27m
+[7mgit add . && git commit -m "v1"[27m[K
+[7mecho "v2" >> notas.txt && git commit -am "v2"[27m[K
+[7mecho "v3" >> notas.txt && git commit -am "v3"[27m[K[3A[27me[27mc[27mh[27mo[27m [27m"[27mv[27m1[27m"[27m [27m>[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27m.[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mv[27m1[27m"[1B[27me[27mc[27mh[27mo[27m [27m"[27mv[27m2[27m"[27m [27m>[27m>[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mv[27m2[27m"[1B[27me[27mc[27mh[27mo[27m [27m"[27mv[27m3[27m"[27m [27m>[27m>[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mv[27m3[K                                  e [K[K[A[45C                                   e [K[K[A[31C                      g [K[K[A[61C                e  [7mecho "v1" > notas.txt[1B[27m[7mgit add . && git commit -m "v1"[27m[K[1B[7mecho "v2" >> notas.txt && git commit -am "v2"[27m[K[1B[7mecho "v3" >> notas.txt && git commit -am "v3"[27m[K[3A[27me[27mc[27mh[27mo[27m [27m"[27mv[27m1[27m"[27m [27m>[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27m.[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mv[27m1[27m"[1B[27me[27mc[27mh[27mo[27m [27m"[27mv[27m2[27m"[27m [27m>[27m>[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mv[27m2[27m"[1B[27me[27mc[27mh[27mo[27m [27m"[27mv[27m3[27m"[27m [27m>[27m>[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mv[27m3[K                                  e [K[K[A[45C                                   e [K[K[A[31C                      g [K[K[A[61C                e  [7mgit log --oneline[27m[17D[27mg[27mi[27mt[27m [27ml[27mo[27mg[27m [27m-[27m-[27mo[27mn[27me[27ml[27mi[27mn[27me[?2004l[1B[?1h=[33ma52137d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m v3[m
+[33mb076c7c[m v2[m
+[33m58f33d5[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit checkout HEAD~2[27m
+[7mcat notas.txt[27m[K
+[7mgit checkout main[27m[K[A[A[23C[27mg[27mi[27mt[27m [27mc[27mh[27me[27mc[27mk[27mo[27mu[27mt[27m [27mH[27mE[27mA[27mD[27m~[27m2[1B[27mc[27ma[27mt[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27mc[27mh[27me[27mc[27mk[27mo[27mu[27mt[27m [27mm[27ma[27mi[27mn[?2004l
+M	lab1-sessao1.txt
+Note: switching to 'HEAD~2'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 58f33d5 v1
+v1
+M	lab1-sessao1.txt
+Previous HEAD position was 58f33d5 v1
+Switched to branch 'main'
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit log --oneline[27m[17D[27mg[27mi[27mt[27m [27ml[27mo[27mg[27m [27m-[27m-[27mo[27mn[27me[27ml[27mi[27mn[27me[?2004l
+[?1h=[33ma52137d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m v3[m
+[33mb076c7c[m v2[m
+[33m58f33d5[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit reset --soft HEAD~1[27m
+[7mgit commit -m "Corrige v2 revertido"[27m[K[A[4C[27mg[27mi[27mt[27m [27mr[27me[27ms[27me[27mt[27m [27m-[27m-[27ms[27mo[27mf[27mt[27m [27mH[27mE[27mA[27mD[27m~[27m1[1B[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mC[27mo[27mr[27mr[27mi[27mg[27me[27m [27mv[27m2[27m [27mr[27me[27mv[27me[27mr[27mt[27mi[27md[27mo[27m"[?2004l
+[main f0683d0] Corrige v2 revertido
+ 1 file changed, 1 insertion(+)
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit log --oneline[27m[17D[27mg[27mi[27mt[27m [27ml[27mo[27mg[27m [27m-[27m-[27mo[27mn[27me[27ml[27mi[27mn[27me[?2004l
+[?1h=[33mf0683d0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Corrige v2 revertido[m
+[33mb076c7c[m v2[m
+[33m58f33d5[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004heexit[?2004l
+
+Script done on Fri Aug  8 13:05:43 2025
