@@ -1,0 +1,15 @@
+Script started on Fri Aug  8 14:47:20 2025
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit remote[?2004l
+origin
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hffif  ggit remote get-url[1m [0m[0m [?2004l
+usage: git remote get-url [--push] [--all] <name>
+
+    --[no-]push           query push URLs rather than fetch URLs
+    --[no-]all            return all URLs
+
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hgit remote get-url origin[1m [0m[0m [?2004l
+https://github.com/EdvalJunior/git-workflows.git
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hcclear[?2004l
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004heexit[?2004l
+
+Script done on Fri Aug  8 14:47:42 2025
