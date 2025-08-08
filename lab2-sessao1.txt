@@ -28,4 +28,30 @@ Switched to branch 'main'
 Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
 [1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hcclear   c  [7mecho "v3 main" >> app.txt[27m[25D[27me[27mc[27mh[27mo[27m [27m"[27mv[27m3[27m [27mm[27ma[27mi[27mn[27m"[27m [27m>[27m>[27m [27ma[27mp[27mp[27m.[27mt[27mx[27mt[?2004l
-[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit add .[27m
+[7mgit commit -am "v3 main"[27m[K
+[K[A[A[40C[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27m.[1B[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mv[27m3[27m [27mm[27ma[27mi[27mn[27m"[1B[K[A[24C[?2004l[1B
+[main a5578c7] v3 main
+ 2 files changed, 32 insertions(+)
+ create mode 100644 lab2-sessao1.txt
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit branch[?2004l
+[?1h=* [32mmain[m[m
+  prod[m[m
+  test[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit log --oneline --all[?2004l
+[?1h=[33ma5578c7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m v3 main[m
+[33m130ddeb[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m v2 main[m
+[33m8a849ab[m[33m ([m[1;31morigin/main[m[33m)[m add files lab1[m
+[33m1f0b481[m algum commit[m
+[33m73cf8fe[m commit 2[m
+[33m93bca3a[m commit 1[m
+[33mdf8a189[m v4[m
+[33md6a02f7[m v3[m
+[33m702f85a[m v2[m
+[33m2ff9f01[m v1[m
+[33mf0683d0[m Corrige v2 revertido[m
+[33mb076c7c[m v2[m
+[33m58f33d5[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004heexit[?2004l
+
+Script done on Fri Aug  8 13:47:09 2025
