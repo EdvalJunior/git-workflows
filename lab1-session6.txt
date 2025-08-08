@@ -1,0 +1,142 @@
+Script started on Fri Aug  8 13:25:49 2025
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mecho "linha 1" > arquivo.txt[27m
+[7mgit add arquivo.txt[27m[K
+[7mgit commit -m "algum commit"[27m[K[A[A[12C[27me[27mc[27mh[27mo[27m [27m"[27ml[27mi[27mn[27mh[27ma[27m [27m1[27m"[27m [27m>[27m [27ma[27mr[27mq[27mu[27mi[27mv[27mo[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27ma[27mr[27mq[27mu[27mi[27mv[27mo[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27ma[27ml[27mg[27mu[27mm[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m"[?2004l
+[main 1f0b481] algum commit
+ 1 file changed, 1 deletion(-)
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mls .git/objects[27m[15D[27ml[27ms[27m [27m.[27mg[27mi[27mt[27m/[27mo[27mb[27mj[27me[27mc[27mt[27ms[?2004l
+1f	2f	48	58	70	7d	9f	b6	df	f0
+21	31	4b	62	73	93	a5	c6	e2	info
+2d	34	4d	6f	75	9e	b0	d6	ed	pack
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mfind .git/objects -type f[27m[25D[27mf[27mi[27mn[27md[27m [27m.[27mg[27mi[27mt[27m/[27mo[27mb[27mj[27me[27mc[27mt[27ms[27m [27m-[27mt[27my[27mp[27me[27m [27mf[?2004l
+.git/objects/6f/2feb98dc79be1ff3702ef8f8b34c1724c76682
+.git/objects/9e/ce50267075657265ca0813fd606b80c2ba5560
+.git/objects/58/f33d5d7092ee5c75c105bd97155cae6f9fdf8b
+.git/objects/93/224c6e24d368f21d6ca295cb29d918395f80fe
+.git/objects/93/bca3a638a138dae800a7adf0d2690f9fae391b
+.git/objects/34/c428c66cfa7d713e47f4dc438c1ef34fe2c899
+.git/objects/df/8a189c2ae884e7c0ca246e5f90e17cc4d83bb7
+.git/objects/df/f1376a66c52c51811b055b2c7591be154b243b
+.git/objects/a5/2137d5624983902f488015bf83dbab0c91b0c9
+.git/objects/d6/a02f72a7d62458e68345000d1d5d384ef582f0
+.git/objects/e2/e3377a675b192043ca08b8ac20a6bd48b1056d
+.git/objects/e2/51848a87a694c7c2d333d5a8d8ffd639c4b606
+.git/objects/ed/7ce12274bc71c66cb596feaaf9f02ce91b820e
+.git/objects/c6/1e406c860e7ec8ead9ffca4d08e300f0f56c8d
+.git/objects/4b/1d4d4b660c400875dd122de217e942f481a378
+.git/objects/7d/edb81327adf165b0b3ed1d8f8de1189bb38375
+.git/objects/1f/15092cca44ceddb6ee907517d0ade7a22c60c3
+.git/objects/1f/0b4810e9b61591c308b339d642f54f6c34823e
+.git/objects/73/cf8feeb99788f402490b73072441460592078d
+.git/objects/21/39d8be699ff388ab3ec85008a3906675ac67cb
+.git/objects/4d/73d612043616ec9150d039de661685eb8fed8f
+.git/objects/75/3ba83b7b87a6183ba95a22993209c87b06bdc1
+.git/objects/2f/f9f01817e13bb0eb615b9a332e5b47cb4f9257
+.git/objects/9f/a4d834bdcea8c69eb121298f1c4b69c0f09453
+.git/objects/31/ff1e103bcd643b012a7d03913cf7ab81ea1678
+.git/objects/62/6799f0f85326a8c1fc522db584e86cdfccd51f
+.git/objects/b6/57d301415e1227e5b13ee181c308eb3f6008b7
+.git/objects/b0/76c7c15b2719d7016f0e4779120f377a17cefe
+.git/objects/f0/683d06805e5aa8c4f5fb6e1e7dd03e9e685e72
+.git/objects/2d/fa806cf4aca304660427d94448251cb77a8063
+.git/objects/48/ce767f1d6abf0a16f4fef3d3db717d012f5151
+.git/objects/70/2f85a32e220c6a1945f4a2b4a93a21645698f2
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit rev-o parse HEAD[?2004l
+1f0b4810e9b61591c308b339d642f54f6c34823e
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hGGIT  G  ggit cat- fil   -file -t V [7m1f0b4810e9b61591c308b339d642f54f[7m6[7mc34823e[27m[K[A[48C[27m1[27mf[27m0[27mb[27m4[27m8[27m1[27m0[27me[27m9[27mb[27m6[27m1[27m5[27m9[27m1[27mc[27m3[27m0[27m8[27mb[27m3[27m3[27m9[27md[27m6[27m4[27m2[27mf[27m5[27m4[27mf6[27mc[27m3[27m4[27m8[27m2[27m3[27me[?2004l
+commit
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hgit cat-file -t 1f0b4810e9b61591c308b339d642f54f6c34823e[K[A[87C[P[33C6c34823e [A[46Cp 1f0b4810e9b61591c308b339d642f54f6c34823e[A[47C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1B[1C[1C[1C[1C[1C[1C[1C[1C[?2004l
+tree 6f2feb98dc79be1ff3702ef8f8b34c1724c76682
+parent 73cf8feeb99788f402490b73072441460592078d
+author edvaljunior <juniorronj@alu.ufc.br> 1754670367 -0300
+committer edvaljunior <juniorronj@alu.ufc.br> 1754670367 -0300
+
+algum commit
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit ls-tree HEAD[?2004l
+100644 blob ed7ce12274bc71c66cb596feaaf9f02ce91b820e	README.md
+100644 blob 9ece50267075657265ca0813fd606b80c2ba5560	arquivo.txt
+100644 blob 753ba83b7b87a6183ba95a22993209c87b06bdc1	lab1-sessao1.txt
+100644 blob 4b1d4d4b660c400875dd122de217e942f481a378	notas.txt
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit cat-file [7med7ce12274bc71c66cb596feaaf9f02ce91[7mb[7m820e[27m[K[A[48C[27me[27md[27m7[27mc[27me[27m1[27m2[27m2[27m7[27m4[27mb[27mc[27m7[27m1[27mc[27m6[27m6[27mc[27mb[27m5[27m9[27m6[27mf[27me[27ma[27ma[27mf[27m9[27mf[27m0[27m2[27mc[27me[27m9[27m1b[27m8[27m2[27m0[27me[A[87C-ed7ce12274bc71c66cb596feaaf9f02ce91b820e[A[48Cted7ce12274bc71c66cb596feaaf9f02ce91b820e[A[48C ed7ce12274bc71c66cb596feaaf9f02ce91b820e[A[48C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1B[1C[1C[1C[1C[1C[1C[1C[1C[?2004l
+blob
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hgit cat-file -t ed7ce12274bc71c66cb596feaaf9f02ce91b820e[K[A[87C[P[33Ce91b820e [A[46Cp ed7ce12274bc71c66cb596feaaf9f02ce91b820e[A[47C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1B[1C[1C[1C[1C[1C[1C[1C[1C[?2004l
+v1
+v2
+v3
+v4
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hgit cat-file -p ed7ce12274bc71c66cb596feaaf9f02ce91b820e[K[A[46Ct[1B[47D      e [K[A[87C[K[1B[K[A[87C                               [7m753ba83b7b87a6183ba95a22993209c8[7m7[7mb06bdc1[27m[K[A[48C[27m7[27m5[27m3[27mb[27ma[27m8[27m3[27mb[27m7[27mb[27m8[27m7[27ma[27m6[27m1[27m8[27m3[27mb[27ma[27m9[27m5[27ma[27m2[27m2[27m9[27m9[27m3[27m2[27m0[27m9[27mc[27m87[27mb[27m0[27m6[27mb[27md[27mc[27m1[?2004l
+blob
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hgit cat-file -t 753ba83b7b87a6183ba95a22993209c87b06bdc1[K[A[87C[P[33C7b06bdc1 [A[46Cp 753ba83b7b87a6183ba95a22993209c87b06bdc1[A[47C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1B[1C[1C[1C[1C[1C[1C[1C[1C[?2004l
+Script started on Fri Aug  8 13:01:40 2025
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit init[?2004l
+Reinitialized existing Git repository in /Users/edvaljunior/Documents/POS ES com foco em DevOps/git-workflows/.git/
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mecho "v1" > notas.txt[27m
+[7mgit add . && git commit -m "v1"[27m[K
+[7mecho "v2" >> notas.txt && git commit -am "v2"[27m[K
+[7mecho "v3" >> notas.txt && git commit -am "v3"[27m[K[3A[27me[27mc[27mh[27mo[27m [27m"[27mv[27m1[27m"[27m [27m>[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27m.[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mv[27m1[27m"[1B[27me[27mc[27mh[27mo[27m [27m"[27mv[27m2[27m"[27m [27m>[27m>[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mv[27m2[27m"[1B[27me[27mc[27mh[27mo[27m [27m"[27mv[27m3[27m"[27m [27m>[27m>[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mv[27m3[27m"[?2004l
+[main (root-commit) 58f33d5] v1
+ 2 files changed, 8 insertions(+)
+ create mode 100644 lab1-sessao1.txt
+ create mode 100644 notas.txt
+[main b076c7c] v2
+ 1 file changed, 1 insertion(+)
+[main a52137d] v3
+ 1 file changed, 1 insertion(+)
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mecho "v1" > notas.txt[27m
+[7mgit add . && git commit -m "v1"[27m[K
+[7mecho "v2" >> notas.txt && git commit -am "v2"[27m[K
+[7mecho "v3" >> notas.txt && git commit -am "v3"[27m[K[3A[27me[27mc[27mh[27mo[27m [27m"[27mv[27m1[27m"[27m [27m>[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27m.[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mv[27m1[27m"[1B[27me[27mc[27mh[27mo[27m [27m"[27mv[27m2[27m"[27m [27m>[27m>[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mv[27m2[27m"[1B[27me[27mc[27mh[27mo[27m [27m"[27mv[27m3[27m"[27m [27m>[27m>[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mv[27m3[K                                  e [K[K[A[45C                                   e [K[K[A[31C                      g [K[K[A[61C                e  [7mecho "v1" > notas.txt[1B[27m[7mgit add . && git commit -m "v1"[27m[K[1B[7mecho "v2" >> notas.txt && git commit -am "v2"[27m[K[1B[7mecho "v3" >> notas.txt && git commit -am "v3"[27m[K[3A[27me[27mc[27mh[27mo[27m [27m"[27mv[27m1[27m"[27m [27m>[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27m.[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mv[27m1[27m"[1B[27me[27mc[27mh[27mo[27m [27m"[27mv[27m2[27m"[27m [27m>[27m>[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mv[27m2[27m"[1B[27me[27mc[27mh[27mo[27m [27m"[27mv[27m3[27m"[27m [27m>[27m>[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mv[27m3[K                                  e [K[K[A[45C                                   e [K[K[A[31C                      g [K[K[A[61C                e  [7mgit log --oneline[27m[17D[27mg[27mi[27mt[27m [27ml[27mo[27mg[27m [27m-[27m-[27mo[27mn[27me[27ml[27mi[27mn[27me[?2004l[1B[?1h=[33ma52137d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m v3[m
+[33mb076c7c[m v2[m
+[33m58f33d5[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit checkout HEAD~2[27m
+[7mcat notas.txt[27m[K
+[7mgit checkout main[27m[K[A[A[23C[27mg[27mi[27mt[27m [27mc[27mh[27me[27mc[27mk[27mo[27mu[27mt[27m [27mH[27mE[27mA[27mD[27m~[27m2[1B[27mc[27ma[27mt[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[1B[27mg[27mi[27mt[27m [27mc[27mh[27me[27mc[27mk[27mo[27mu[27mt[27m [27mm[27ma[27mi[27mn[?2004l
+M	lab1-sessao1.txt
+Note: switching to 'HEAD~2'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 58f33d5 v1
+v1
+M	lab1-sessao1.txt
+Previous HEAD position was 58f33d5 v1
+Switched to branch 'main'
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit log --oneline[27m[17D[27mg[27mi[27mt[27m [27ml[27mo[27mg[27m [27m-[27m-[27mo[27mn[27me[27ml[27mi[27mn[27me[?2004l
+[?1h=[33ma52137d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m v3[m
+[33mb076c7c[m v2[m
+[33m58f33d5[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit reset --soft HEAD~1[27m
+[7mgit commit -m "Corrige v2 revertido"[27m[K[A[4C[27mg[27mi[27mt[27m [27mr[27me[27ms[27me[27mt[27m [27m-[27m-[27ms[27mo[27mf[27mt[27m [27mH[27mE[27mA[27mD[27m~[27m1[1B[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mC[27mo[27mr[27mr[27mi[27mg[27me[27m [27mv[27m2[27m [27mr[27me[27mv[27me[27mr[27mt[27mi[27md[27mo[27m"[?2004l
+[main f0683d0] Corrige v2 revertido
+ 1 file changed, 1 insertion(+)
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit log --oneline[27m[17D[27mg[27mi[27mt[27m [27ml[27mo[27mg[27m [27m-[27m-[27mo[27mn[27me[27ml[27mi[27mn[27me[?2004l
+[?1h=[33mf0683d0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Corrige v2 revertido[m
+[33mb076c7c[m v2[m
+[33m58f33d5[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004heexit[?2004l
+
+Script done on Fri Aug  8 13:05:43 2025
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hgit cat-file -p 753ba83b7b87a6183ba95a22993209c87b06bdc1[K[A[46Ct[1B[47D      7 [K[A[87C[K[1B[K[A[87C                               [7m4b1d4d4b660c400875dd122de217e942[7mf[7m481a378[27m[K[A[48C[27m4[27mb[27m1[27md[27m4[27md[27m4[27mb[27m6[27m6[27m0[27mc[27m4[27m0[27m0[27m8[27m7[27m5[27md[27md[27m1[27m2[27m2[27md[27me[27m2[27m1[27m7[27me[27m9[27m4[27m2f[27m4[27m8[27m1[27ma[27m3[27m7[27m8[?2004l
+blob
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hgit cat-file -t 4b1d4d4b660c400875dd122de217e942f481a378[K[A[87C[P[33Cf481a378 [A[46Cp 4b1d4d4b660c400875dd122de217e942f481a378[A[47C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1B[1C[1C[1C[1C[1C[1C[1C[1C[?2004l
+v1
+v2
+v3
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hcclc  eexit[?2004l
+
+Script done on Fri Aug  8 13:30:42 2025

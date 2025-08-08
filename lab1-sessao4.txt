@@ -1,0 +1,27 @@
+Script started on Fri Aug  8 13:08:58 2025
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit revert HEAD[27m[15D[27mg[27mi[27mt[27m [27mr[27me[27mv[27me[27mr[27mt[27m [27mH[27mE[27mA[27mD[?2004l
+hint: Waiting for your editor to close the file... [K[main e2e3377] Revert "v5"
+ 1 file changed, 1 deletion(-)
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hggit log --oneline[?2004l
+[?1h=[33me2e3377[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Revert "v5"[m
+[33mc61e406[m v5[m
+[33mdf8a189[m v4[m
+[33md6a02f7[m v3[m
+[33m702f85a[m v2[m
+[33m2ff9f01[m v1[m
+[33mf0683d0[m Corrige v2 revertido[m
+[33mb076c7c[m v2[m
+[33m58f33d5[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004h[7mgit reset --hard HEAD~2[27m[23D[27mg[27mi[27mt[27m [27mr[27me[27ms[27me[27mt[27m [27m-[27m-[27mh[27ma[27mr[27md[27m [27mH[27mE[27mA[27mD[27m~[27m2[?2004l
+HEAD is now at df8a189 v4
+[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004hgit reset --hard HEAD~2[19Dlog --oneline      [?2004l
+[?1h=[33mdf8a189[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m v4[m
+[33md6a02f7[m v3[m
+[33m702f85a[m v2[m
+[33m2ff9f01[m v1[m
+[33mf0683d0[m Corrige v2 revertido[m
+[33mb076c7c[m v2[m
+[33m58f33d5[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                        [0m[27m[24m[Jedvaljunior@MacBook-Pro git-workflows % [K[?2004heexit[?2004l
+
+Script done on Fri Aug  8 13:10:33 2025
